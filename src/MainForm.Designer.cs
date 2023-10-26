@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.toolStrip = new System.Windows.Forms.ToolStrip();
             this.toolStripButtonOpen = new System.Windows.Forms.ToolStripButton();
             this.toolStripButtonSave = new System.Windows.Forms.ToolStripButton();
@@ -58,7 +57,7 @@
             // toolStripButtonOpen
             // 
             this.toolStripButtonOpen.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButtonOpen.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonOpen.Image")));
+            this.toolStripButtonOpen.Image = global::Filters.Properties.Resources.open_file_1;
             this.toolStripButtonOpen.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonOpen.Name = "toolStripButtonOpen";
             this.toolStripButtonOpen.Size = new System.Drawing.Size(23, 22);
@@ -68,7 +67,7 @@
             // toolStripButtonSave
             // 
             this.toolStripButtonSave.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButtonSave.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonSave.Image")));
+            this.toolStripButtonSave.Image = global::Filters.Properties.Resources.save_file;
             this.toolStripButtonSave.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonSave.Name = "toolStripButtonSave";
             this.toolStripButtonSave.Size = new System.Drawing.Size(23, 22);
@@ -78,7 +77,7 @@
             // toolStripButtonContour
             // 
             this.toolStripButtonContour.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButtonContour.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonContour.Image")));
+            this.toolStripButtonContour.Image = global::Filters.Properties.Resources.contour;
             this.toolStripButtonContour.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonContour.Name = "toolStripButtonContour";
             this.toolStripButtonContour.Size = new System.Drawing.Size(23, 22);
@@ -88,7 +87,7 @@
             // toolStripButtonInversion
             // 
             this.toolStripButtonInversion.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButtonInversion.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonInversion.Image")));
+            this.toolStripButtonInversion.Image = global::Filters.Properties.Resources.inversion;
             this.toolStripButtonInversion.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonInversion.Name = "toolStripButtonInversion";
             this.toolStripButtonInversion.Size = new System.Drawing.Size(23, 22);
